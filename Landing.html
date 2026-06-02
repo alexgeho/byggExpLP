@@ -727,6 +727,22 @@
       .step:nth-child(even) .step-visual {
         order: -1;
       }
+
+      .step-bullets .number {
+        flex-shrink: 0;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: rgba(69, 179, 107, 0.14);
+        color: var(--green);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1px;
+        font-size: 1.1rem;
+        font-weight: 700;
+      }
+
       @media (max-width: 900px) {
         .step {
           grid-template-columns: 1fr;
@@ -1846,58 +1862,34 @@
         <div class="how-head">
           <span class="eyebrow">Как это выглядит</span>
           <h2>
-            Три инструмента, которые <em>закрывают 90%</em> работы прораба
+            3 инструмента, которые <em>закрывают 60%</em> работы администрации
           </h2>
           <p class="section-sub">
-            Не нужен ноутбук, не нужен 1С. Нужен только смартфон, который и так
-            лежит в кармане.
+            Можно без ноутбук, можно без секретарши. Нужен только смартфон,
+            который и так лежит в кармане.
           </p>
         </div>
 
         <div class="step">
           <div class="step-text-block">
-            <h3>Чат с бригадой и заказчиком</h3>
+            <h3>Авто сбор и экспорт часов в Excel</h3>
             <p class="step-text">
-              Один чат на объект — без хаоса в WhatsApp. Закрепи инструктаж
-              по безопасности, скинь чертёж, отметь срочное — и все увидят
-              это первым.
+              Сотрудник выбирает проект и нажимает “Start”. ByggExp автоматически фиксирует рабочее время определяя по GPS находится ли человек на объекте.
             </p>
             <ul class="step-bullets">
               <li>
-                <span class="check"
-                  ><svg viewBox="0 0 14 10" fill="none">
-                    <path
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="m1 5 4 4 8-8"
-                    /></svg></span
-                >Закреплённые сообщения и инструкции по ТБ
+                <span class="number">1</span>
+                Создай проект и назначь сотрудников
               </li>
+
               <li>
-                <span class="check"
-                  ><svg viewBox="0 0 14 10" fill="none">
-                    <path
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="m1 5 4 4 8-8"
-                    /></svg></span
-                >Видно, кто прочитал сообщение, а кто — нет
+                <span class="number">2</span>
+                Рабочий запускает смену одним нажатием
               </li>
+
               <li>
-                <span class="check"
-                  ><svg viewBox="0 0 14 10" fill="none">
-                    <path
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="m1 5 4 4 8-8"
-                    /></svg></span
-                >Голосовые сообщения для тех, кому удобнее так
+                <span class="number">3</span>
+                Нескольго кликов и готовые отчеты выгружены в Excel
               </li>
             </ul>
           </div>
