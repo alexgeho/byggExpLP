@@ -740,7 +740,15 @@
         justify-content: center;
         margin-top: 1px;
         font-size: 1.1rem;
-        font-weight: 700;
+        font-weight: 500;
+      }
+
+      .inline-skull {
+        width: 40px;
+        height: 40px;
+        margin-left: -8px;
+        position: relative;
+        top: -14px;
       }
 
       @media (max-width: 900px) {
@@ -794,8 +802,8 @@
       }
       .step-bullets .check {
         flex-shrink: 0;
-        width: 22px;
-        height: 22px;
+        width: 30px;
+        height: 30px;
         border-radius: 50%;
         background: rgba(69, 179, 107, 0.14);
         color: var(--green);
@@ -1865,12 +1873,12 @@
             3 инструмента, которые <em>закрывают 60%</em> работы администрации
           </h2>
           <p class="section-sub">
-            Можно без ноутбук, можно без секретарши. Нужен только смартфон,
+            Можно без ноутбука, можно без секретарши. Нужен только смартфон,
             который и так лежит в кармане.
           </p>
         </div>
 
-        <!-- 1 -->
+        <!-- 1 Excel -->
         <div class="step">
           <div class="step-text-block">
             <h3>Авто сбор и экспорт часов в Excel</h3>
@@ -1903,14 +1911,16 @@
           </div>
         </div>
 
-        <!-- 2 -->
+        <!-- 2 Noticer -->
         <div class="step">
           <div class="step-text-block">
             <h3>Задачи с авто контролем</h3>
             <p class="step-text">
               Задача ставится всем кто на проекте, выбранным или 1 сотруднику.
-              Если задача не выполнена — приложение будет
-              присылать, установленные вами напоминания каждые 5, 15, 60 минут или любой другой интервал </p>
+              Если задача не выполнена — приложение будет присылать,
+              установленные вами напоминания каждые 5, 15, 60 минут или любой
+              другой интервал
+            </p>
             <ul class="step-bullets">
               <li>
                 <span class="number">1</span>
@@ -1938,7 +1948,56 @@
           </div>
         </div>
 
-        <!-- 3 -->
+        <!-- 3 Live-->
+        <div class="step">
+          <div class="step-text-block">
+            <h3>Бригады в Live режиме</h3>
+            <p class="step-text">
+              Контроль сотрудников и объектов в реальном времени. На панели
+              админа вы сразу можете видеть всех сотрудников кто начал смену и
+              тех кто не начал, кто на каком объекте и со скольки
+            </p>
+            <ul class="step-bullets">
+              <li>
+                <span class="number">1</span>
+                Заходите в панель администратора
+              </li>
+
+              <li>
+                <span class="number">2</span>
+                Кликаете на вкладку Live
+              </li>
+
+              <li>
+                <span class="check"
+                  ><svg viewBox="0 0 14 10" fill="none">
+                    <path
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m1 5 4 4 8-8"
+                    /></svg></span
+                >Прогульщиков сразу видно
+                <img
+                  src="assets/emoji-skull.gif"
+                  alt="💀"
+                  class="inline-skull"
+                />
+              </li>
+            </ul>
+          </div>
+          <div class="step-visual">
+            <div class="phone-shell">
+              <img
+                src="assets/screen-documents.png"
+                alt="Документы по объекту в Byggexp"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 -->
         <div class="step">
           <div class="step-text-block">
             <h3>Документы по объекту — в один тап</h3>
@@ -1996,6 +2055,7 @@
           </div>
         </div>
 
+        <!-- 5 -->
         <div class="step">
           <div class="step-text-block">
             <h3>Смены и фотофиксация хода работ</h3>
