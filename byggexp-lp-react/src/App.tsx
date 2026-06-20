@@ -19,8 +19,9 @@ function App() {
     <>
      <Header/>
      <Hero/>
-     <Pain/>
      <Why/>
+     <Pain/>
+     
      <Consequences/>
      <BenefitsForOffice/>
      <BenefitsForSite/>
