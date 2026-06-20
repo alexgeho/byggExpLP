@@ -1,3 +1,4 @@
+import BenefitsForOffice from "./components/Benefits/BenefitsForOffice"
 import Consequences from "./components/Consequences/Consequences"
 import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
@@ -15,6 +16,7 @@ function App() {
      <Pain/>
      <Why/>
      <Consequences/>
+     <BenefitsForOffice/>
     </>
   )
 }
