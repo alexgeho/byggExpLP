@@ -3,6 +3,7 @@ import BenefitsForSite from "./components/Benefits/BenefitsForSite"
 import Consequences from "./components/Consequences/Consequences"
 import CTA from "./components/CTA/CTA"
 import FinalBenefits from "./components/FinalBenefits/FinalBenefits"
+import Footer from "./components/Footer/Footer"
 import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
 import How from "./components/How/How"
@@ -27,6 +28,7 @@ function App() {
      <FinalBenefits/>
      <Pricing/>
      <CTA/>
+     <Footer/>
     </>
   )
 }
