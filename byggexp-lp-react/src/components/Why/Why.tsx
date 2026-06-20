@@ -6,7 +6,7 @@ function Why() {
       <div className="container why-inner">
         <div className="stat-big">80<span>%</span></div>
         <div>
-          <span className="eyebrow">Корень проблемы</span>
+          <span className="eyebrowWhy">Корень проблемы</span>
           <h2>
             компаний теряют деньги не из-за плохих работников, а потому что
             делают вручную то, что успешные давно автоматизирвали

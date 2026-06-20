@@ -28,6 +28,11 @@
         gap: 80px;
         align-items: center;
       }
+
+      .eyebrowWhy {
+        color: var(--danger);
+        font-size: 1.2rem;
+      }
       @media (max-width: 900px) {
         .why-inner {
           grid-template-columns: 1fr;
@@ -41,9 +46,9 @@
         letter-spacing: -0.04em;
         background: linear-gradient(
           180deg,
-          #6bb6ff 0%,
-          #1378e0 60%,
-          #06223f 100%
+          #ffeef0 0%,
+          #e5556a 50%,
+          #ef1637 90%
         );
         -webkit-background-clip: text;
         background-clip: text;
@@ -75,7 +80,7 @@
         flex-shrink: 0;
         width: 24px;
         height: 2px;
-        background: var(--blue);
+        background: var(--danger);
         margin-top: 14px;
       }
       .why-conclusion {
@@ -88,6 +93,6 @@
         color: var(--ink);
       }
       .why-conclusion strong {
-        color: #ffb0bb;
+        color: #e5556a;
         font-weight: 600;
       }
