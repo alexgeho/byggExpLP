@@ -9,10 +9,10 @@ function Header(){
           ><img src={logo} alt="Byggexp"
         /></a>
         <div className="nav-links">
-          <a href="#how">Как работает</a>
+          <a href="#how">Как работает</a>
           <a href="#pricing">Цены</a>
-          <a href="#cta">О компании</a>
-          <a href="#cta" className="nav-cta">Записаться на демо</a>
+          <a href="#cta">О компании</a>
+          <a href="#cta" className="nav-cta">Записаться на демо</a>
         </div>
       </nav>
     </header>
