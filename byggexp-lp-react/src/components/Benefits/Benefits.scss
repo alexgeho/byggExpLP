@@ -50,12 +50,8 @@
     grid-template-columns: 1fr;
   }
 }
-.benefit-card {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.04),
-    rgba(255, 255, 255, 0.01)
-  );
+.benefit-card, .benefit-card-team {
+
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 24px;
   padding: 26px 26px;
@@ -64,6 +60,14 @@
     transform 0.2s,
     border-color 0.2s,
     background 0.2s;
+}
+
+.benefit-card{
+    background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.04),
+    rgba(255, 255, 255, 0.01)
+  );
 }
 .benefit-card:hover {
   transform: translateY(-4px);
@@ -106,6 +110,7 @@
 }
 .benefit-card-team {
   color: var(--muted);
+  background: black;
 }
 
 
