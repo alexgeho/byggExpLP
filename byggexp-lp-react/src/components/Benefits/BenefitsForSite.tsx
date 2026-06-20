@@ -2,12 +2,12 @@ import "./Benefits.scss"
 
 function BenefitsForSite() {
   return (
-    <section className="benefits">
+    <section className="benefits-team">
       <div className="container benefits-inner">
-        <p className="solution-lead">Что получает строительная бригада:</p>
+        <p className="solution-lead-team">Что получает строительная бригада:</p>
         <div className="benefits-grid">
 
-          <div className="benefit-card">
+          <div className="benefit-card-team">
             <div className="benefit-icon">
               <svg
                 viewBox="0 0 24 24"
@@ -24,7 +24,7 @@ function BenefitsForSite() {
             <p>Отметил начало и конец смены за несколько секунд.</p>
           </div>
 
-          <div className="benefit-card">
+          <div className="benefit-card-team">
             <div className="benefit-icon">
               <svg
                 viewBox="0 0 24 24"
@@ -41,7 +41,7 @@ function BenefitsForSite() {
             <p>Задания прямо в приложении, вместе с автонапоминаниями</p>
           </div>
 
-          <div className="benefit-card">
+          <div className="benefit-card-team">
             <div className="benefit-icon">
               <svg
                 viewBox="0 0 24 24"
@@ -60,7 +60,7 @@ function BenefitsForSite() {
             <p>Фотографии, документы привязываются к смене и проекту</p>
           </div>
 
-          <div className="benefit-card">
+          <div className="benefit-card-team">
             <div className="benefit-icon">
               <svg
                 viewBox="0 0 24 24"
