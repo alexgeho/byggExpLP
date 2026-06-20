@@ -1,11 +1,13 @@
 import BenefitsForOffice from "./components/Benefits/BenefitsForOffice"
 import BenefitsForSite from "./components/Benefits/BenefitsForSite"
 import Consequences from "./components/Consequences/Consequences"
+import CTA from "./components/CTA/CTA"
 import FinalBenefits from "./components/FinalBenefits/FinalBenefits"
 import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
 import How from "./components/How/How"
 import Pain from "./components/Pain/Pain"
+import Pricing from "./components/Pricing/Pricing"
 import Why from "./components/Why/Why"
 
 
@@ -23,6 +25,8 @@ function App() {
      <BenefitsForSite/>
      <How/>
      <FinalBenefits/>
+     <Pricing/>
+     <CTA/>
     </>
   )
 }
